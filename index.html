@@ -2,16 +2,20 @@
   <!-- Google tag (gtag.js) -->
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-21911ZEZG6"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    var host = window.location.hostname;
+    if (host != "localhost") {
 
-    gtag('config', 'G-21911ZEZG6');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-21911ZEZG6');
+    } else { }
   </script>
   <script type="text/javascript" id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
   <meta charset="utf-8">
-  <title>SheriftawfikabbasGithubIo</title>
+  <title>Sherif A. Tawfik Abbas's website</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -22,6 +26,6 @@
 
 <body class="mat-typography">
   <app-root></app-root>
-<script src="runtime.a3d57c59f9fec9a3.js" type="module"></script><script src="polyfills.59a5b070227d249f.js" type="module"></script><script src="scripts.911d6af369aaa36c.js" defer></script><script src="main.bdb44946b74362d9.js" type="module"></script>
+<script src="runtime.a3d57c59f9fec9a3.js" type="module"></script><script src="polyfills.59a5b070227d249f.js" type="module"></script><script src="scripts.911d6af369aaa36c.js" defer></script><script src="main.a81cd7c83d1c9f57.js" type="module"></script>
 
 </body></html>
